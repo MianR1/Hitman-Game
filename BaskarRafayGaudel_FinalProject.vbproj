@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F1383C0A-9E0D-4CF0-BA9B-DAF8AE268AD8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BaskarRafayGaudel_FinalProject.My.MyApplication</StartupObject>
+    <RootNamespace>BaskarRafayGaudel_FinalProject</RootNamespace>
+    <AssemblyName>BaskarRafayGaudel_FinalProject</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BaskarRafayGaudel_FinalProject.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BaskarRafayGaudel_FinalProject.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="111.designer.vb">
+      <DependentUpon>111.vb</DependentUpon>
+    </Compile>
+    <Compile Include="111.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="222.designer.vb">
+      <DependentUpon>222.vb</DependentUpon>
+    </Compile>
+    <Compile Include="222.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="333.designer.vb">
+      <DependentUpon>333.vb</DependentUpon>
+    </Compile>
+    <Compile Include="333.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="444.designer.vb">
+      <DependentUpon>444.vb</DependentUpon>
+    </Compile>
+    <Compile Include="444.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Click All.designer.vb">
+      <DependentUpon>Click All.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Click All.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Credits.Designer.vb">
+      <DependentUpon>Credits.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Credits.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevConsole.Designer.vb">
+      <DependentUpon>DevConsole.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DevConsole.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirstTime.Designer.vb">
+      <DependentUpon>FirstTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FirstTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEasyLevel.designer.vb">
+      <DependentUpon>frmEasyLevel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEasyLevel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHardLevel.designer.vb">
+      <DependentUpon>frmHardLevel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHardLevel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIntroduction.designer.vb">
+      <DependentUpon>frmIntroduction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmIntroduction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIntroMasterMind.designer.vb">
+      <DependentUpon>frmIntroMasterMind.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmIntroMasterMind.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLevel1.designer.vb">
+      <DependentUpon>frmLevel1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLevel1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLevel2.designer.vb">
+      <DependentUpon>frmLevel2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLevel2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLevel3.designer.vb">
+      <DependentUpon>frmLevel3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLevel3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLevel4FinalExam.Designer.vb">
+      <DependentUpon>frmLevel4FinalExam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLevel4FinalExam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMediumLevel.designer.vb">
+      <DependentUpon>frmMediumLevel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMediumLevel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOverV.designer.vb">
+      <DependentUpon>frmOverV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOverV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOverviewFinalExam.Designer.vb">
+      <DependentUpon>frmOverviewFinalExam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOverviewFinalExam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWelcome.Designer.vb">
+      <DependentUpon>frmWelcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWelcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hub.Designer.vb">
+      <DependentUpon>Hub.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Leaderboard.Designer.vb">
+      <DependentUpon>Leaderboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Leaderboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logIN.Designer.vb">
+      <DependentUpon>logIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="logIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Pass.Designer.vb">
+      <DependentUpon>Pass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pop Up.designer.vb">
+      <DependentUpon>Pop Up.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pop Up.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Signup.Designer.vb">
+      <DependentUpon>Signup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Signup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="111.resx">
+      <DependentUpon>111.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="222.resx">
+      <DependentUpon>222.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="333.resx">
+      <DependentUpon>333.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="444.resx">
+      <DependentUpon>444.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Click All.resx">
+      <DependentUpon>Click All.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Credits.resx">
+      <DependentUpon>Credits.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevConsole.resx">
+      <DependentUpon>DevConsole.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstTime.resx">
+      <DependentUpon>FirstTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEasyLevel.resx">
+      <DependentUpon>frmEasyLevel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHardLevel.resx">
+      <DependentUpon>frmHardLevel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIntroduction.resx">
+      <DependentUpon>frmIntroduction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIntroMasterMind.resx">
+      <DependentUpon>frmIntroMasterMind.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLevel1.resx">
+      <DependentUpon>frmLevel1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLevel2.resx">
+      <DependentUpon>frmLevel2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLevel3.resx">
+      <DependentUpon>frmLevel3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLevel4FinalExam.resx">
+      <DependentUpon>frmLevel4FinalExam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMediumLevel.resx">
+      <DependentUpon>frmMediumLevel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOverV.resx">
+      <DependentUpon>frmOverV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOverviewFinalExam.resx">
+      <DependentUpon>frmOverviewFinalExam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWelcome.resx">
+      <DependentUpon>frmWelcome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hub.resx">
+      <DependentUpon>Hub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Leaderboard.resx">
+      <DependentUpon>Leaderboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logIN.resx">
+      <DependentUpon>logIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pass.resx">
+      <DependentUpon>Pass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pop Up.resx">
+      <DependentUpon>Pop Up.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signup.resx">
+      <DependentUpon>Signup.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CreamyFormalChanticleer-max-1mb.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-check-mark-computer-icons-clip-art-green-check-mark-2-icon-5ab1d1bfebf0f5-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireworks TWO gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test 1 click all.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test 2 spot dif.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helllo.gif" />
+    <None Include="Resources\unnamed3.jpg" />
+    <None Include="Resources\question-mark-icon-png-favpng-QcL0w6bVrwp7WLDxwT3U4Z7tS3.jpg" />
+    <None Include="Resources\unnamed2.jpg" />
+    <None Include="Resources\question-mark-icon-png-favpng-QcL0w6bVrwp7WLDxwT3U4Z7tS2.jpg" />
+    <None Include="Resources\1526988152_1473681098_giphy %284%29.gif" />
+    <None Include="Resources\02c23cca22924303ddc234f01fc3f4d52.jpg" />
+    <None Include="Resources\Agent_47_in_Hitman_Absolution2.png" />
+    <None Include="Resources\02c23cca22924303ddc234f01fc3f4d53.jpg" />
+    <None Include="Resources\Agent_47_in_Hitman_Absolution3.png" />
+    <Content Include="Resources\blood shot SPLASH.png" />
+    <None Include="Resources\INTERCEPT_OM_FINAL.170424-1494519418.gif" />
+    <None Include="Resources\Verticalline+test+letting+us+know+who+passed+calculus+since+1667+_b7cc915295d6f49d6644ba94aaedc4cb.gif" />
+    <None Include="Resources\Hocus-Focus.gif" />
+    <None Include="Resources\DangerousYearlyGallinule-small.gif" />
+    <None Include="Resources\yellowball2.gif" />
+    <None Include="Resources\Socrates_Thinking.jpg" />
+    <None Include="Resources\redball2.gif" />
+    <None Include="Resources\purpleball2.gif" />
+    <None Include="Resources\present.gif" />
+    <None Include="Resources\place.gif" />
+    <None Include="Resources\orangeball2.gif" />
+    <None Include="Resources\help.PNG" />
+    <None Include="Resources\greenball2.gif" />
+    <None Include="Resources\blueball2.gif" />
+    <None Include="Resources\blood shot SPLASH1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
